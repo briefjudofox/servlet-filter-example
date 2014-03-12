@@ -1,4 +1,4 @@
-# Modify request parameters using a servlet filter
+## Modify request parameters using a servlet filter
 
 The `EchoServlet` writes the URL and request parameters on the response.  The `EchoServletFilter` intercepts requests to `/echo/*` and wraps the original request in a `EchoServletFilteredRequest` which allows you to add or update parameters by calling `addParameter()`.  As an example the `EchoServletFilter` adds 2 additional parameters ('extraParam1' and 'extraParam1').     
 
